@@ -1,0 +1,6 @@
+services:
+  web:
+    image: ghcr.io/PanaPapad/united-app-web:latest
+    ports:
+      - "80:80"
+    restart: unless-stopped
